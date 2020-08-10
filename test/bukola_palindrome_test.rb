@@ -24,4 +24,8 @@ class BukolaPalindromeTest < Minitest::Test
   def test_palindrome_with_punctuation
     assert "Madam, I'm Adam.".palindrome?
   end
+
+  def test_palindrome_with_integers
+    assert 123321.palindrome?
+  end
 end
